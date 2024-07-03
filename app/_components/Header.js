@@ -13,19 +13,19 @@ function Header() {
                         <nav aria-label="Global" className="hidden md:block">
                             <ul className="flex items-center gap-6 text-sm">
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Home </a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/upload"> Home </a>
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Upload </a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/upload"> Upload </a>
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#">About Us</a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/">About Us</a>
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Contact Us</a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/"> Contact Us</a>
                                 </li>
 
 
@@ -42,7 +42,7 @@ function Header() {
                                 </a>
                             </div>
 
-                            {/* <button
+                            <button
                                 className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
                             >
                                 <span className="sr-only">Toggle menu</span>
@@ -56,7 +56,7 @@ function Header() {
                                 >
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                                 </svg>
-                            </button> */}
+                            </button>
                         </div>
                     </div>
                 </div>

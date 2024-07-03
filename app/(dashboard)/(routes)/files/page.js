@@ -5,7 +5,7 @@ function Files() {
   return (
     <div>
       files
-      <UserButton afterSignOutUrl = "/" />
+      {/* <UserButton afterSignOutUrl = "/" /> */}
     </div>
   )
 }

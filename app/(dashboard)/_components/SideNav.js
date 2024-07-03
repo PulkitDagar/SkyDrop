@@ -5,7 +5,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import logo from "../../../public/logo.webp"
 
-function SideNav() {
+function SideNav({closeSideBar}) {
 
     const menuList = [
         {
@@ -41,7 +41,7 @@ function SideNav() {
             <div className='flex flex-col float-left'>
                 {
                     menuList.map((item, index) => (
-                        <button className={`flex gap-2 p-4 px-6 hover:bg-gray-100 w-full text-gray-500 ${activeIndex==index?'bg-blue-50 text-primary':null}`} onClick={ ()=>setActiveIndex(index)}>
+                        <button key={index} className={`flex gap-2 p-4 px-6 hover:bg-gray-100 w-full text-gray-500 ${activeIndex==index?'bg-blue-50 text-primary':null}`} onClick={ ()=>{setActiveIndex(index);closeSideBar()}}>
                             <item.icon/>
                             <h2>{item.name}</h2>
                         </button>
