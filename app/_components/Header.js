@@ -36,13 +36,13 @@ function Header() {
                             <div className="sm:flex sm:gap-4">
                                 <a
                                     className="block rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700"
-                                    href="#"
+                                    href="/files"
                                 >
                                     Get Started
                                 </a>
                             </div>
 
-                            <button
+                            {/* <button
                                 className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
                             >
                                 <span className="sr-only">Toggle menu</span>
@@ -56,7 +56,7 @@ function Header() {
                                 >
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                                 </svg>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

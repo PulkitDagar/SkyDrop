@@ -4,6 +4,7 @@ import React from 'react'
 function Files() {
   return (
     <div>
+      files
       <UserButton afterSignOutUrl = "/" />
     </div>
   )
